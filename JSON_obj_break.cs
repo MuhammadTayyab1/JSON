@@ -39,6 +39,7 @@ namespace Examples.System.Net
                 Console.WriteLine("===========================");
                 Console.WriteLine("Breaking data ");
                 Console.WriteLine("");
+                // or you  can use for loop
                 Console.WriteLine("1 ) " + list[keys[0]].ToString());
                 Console.WriteLine("2 ) " + list[keys[1]].ToString());
                 Console.WriteLine("3 ) " + list[keys[2]].ToString());
