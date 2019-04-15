@@ -17,6 +17,7 @@ namespace Examples.System.Net
             using (var wb = new WebClient())
             {
                 var data = new NameValueCollection();
+                // post variables
                 data["username"] = "myUser";
                 data["password"] = "myPassword";
 
