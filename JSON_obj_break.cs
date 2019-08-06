@@ -23,9 +23,13 @@ namespace Examples.System.Net
 
                 var response = wb.UploadValues("https://jsonplaceholder.typicode.com/posts", "POST", data);
                 string responseInString = Encoding.UTF8.GetString(response);
+                // Display 
                 Console.WriteLine(responseInString);
             }
 
+            
+            
+            
             using (var wb = new WebClient())
             {
                 var response = wb.DownloadString("https://jsonplaceholder.typicode.com/todos/1");
